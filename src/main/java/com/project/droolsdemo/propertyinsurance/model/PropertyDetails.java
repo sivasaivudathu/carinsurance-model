@@ -68,5 +68,11 @@ public class PropertyDetails {
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
 	}
+
+	@Override
+	public String toString() {
+		return "PropertyDetails [ownershipName=" + ownershipName + ", addressLine1=" + addressLine1 + ", addressLine2="
+				+ addressLine2 + ", city=" + city + ", country=" + country + ", postalCode=" + postalCode + "]";
+	}
 	
 }

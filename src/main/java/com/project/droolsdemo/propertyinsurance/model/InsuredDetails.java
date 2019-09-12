@@ -9,6 +9,8 @@ package com.project.droolsdemo.propertyinsurance.model;
  */
 public class InsuredDetails {
 
+	
+
 	private String firstName;
 	
 	private String lastName;
@@ -47,5 +49,11 @@ public class InsuredDetails {
 
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
+	}
+	
+	@Override
+	public String toString() {
+		return "InsuredDetails [firstName=" + firstName + ", lastName=" + lastName + ", phoneNumber=" + phoneNumber
+				+ ", emailId=" + emailId + "]";
 	}
 }

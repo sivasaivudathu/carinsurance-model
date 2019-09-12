@@ -9,7 +9,7 @@ import java.io.Serializable;
  * @author sivasaiv
  *
  */
-public class Insurer implements Serializable{
+public class PropertyInsurer implements Serializable{
 
 	/**
 	 * 
@@ -20,11 +20,11 @@ public class Insurer implements Serializable{
 	
 	private String percentage;
 
-	public Insurer() {
+	public PropertyInsurer() {
 		
 	}
 	
-	public Insurer(String name,String percentage) {
+	public PropertyInsurer(String name,String percentage) {
 		super();
 		this.name = name;
 		this.percentage = percentage;

@@ -108,4 +108,14 @@ public class PropertyDescription {
 	public void setPropertyValue(String propertyValue) {
 		this.propertyValue = propertyValue;
 	}
+
+	@Override
+	public String toString() {
+		return "PropertyDescription [builtIn=" + builtIn + ", floors=" + floors + ", elevators=" + elevators
+				+ ", propertyType=" + propertyType + ", isRoofUpdated=" + isRoofUpdated + ", isElectricUpdated="
+				+ isElectricUpdated + ", nearestFireStation=" + nearestFireStation + ", nearestCoast=" + nearestCoast
+				+ ", isClaimMade=" + isClaimMade + ", propertyValue=" + propertyValue + "]";
+	}
+	
+	
 }

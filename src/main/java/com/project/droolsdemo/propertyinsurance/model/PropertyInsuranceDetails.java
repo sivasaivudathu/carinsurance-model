@@ -38,4 +38,11 @@ public class PropertyInsuranceDetails {
 	public void setPropertyDescription(PropertyDescription propertyDescription) {
 		this.propertyDescription = propertyDescription;
 	}
+
+	@Override
+	public String toString() {
+		return "PropertyInsuranceDetails [insuredDetails=" + insuredDetails + ", propertyDetails=" + propertyDetails
+				+ ", propertyDescription=" + propertyDescription + "]";
+	}
+	
 }
